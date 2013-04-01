@@ -1,4 +1,4 @@
-job('last_kickstarter', '* * * * *', function(done) {
+job('last_kickstarter', '1day', function(done) {
 	var cheerio = require('cheerio');
 	var request = require('request');
 
