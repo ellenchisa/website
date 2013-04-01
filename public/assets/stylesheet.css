@@ -1,0 +1,125 @@
+@font-face { font-family: 'metro'; src: url('metro-icons-fixed-2000-webfont.eot?x=1351252202'); src: url('metro-icons-fixed-2000-webfont.eot?#iefix') format('embedded-opentype'),  url('metro-icons-fixed-2000-webfont.woff?x=1351252202') format('woff'),  url('metro-icons-fixed-2000-webfont.ttf?x=1351252202') format('truetype'),  url('metro-icons-fixed-2000-webfont.svg?x=1351252202#metroicons8-3regular') format('svg'); font-weight: normal; font-style: normal; }
+
+.icon {
+  font-family: metro;
+  text-decoration: none !important;
+  font-size:30pt;
+}
+
+a:link {
+color: #7D1717;
+text-decoration: underline;
+}
+
+a:visited{
+color:#7D1717;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+#awesome-projects #af-most-recent{
+  width: 500px;
+  display: inline-block;
+}
+
+#awesome-projects #af-past{
+  display:inline-block;
+}
+
+#awesome-projects #af-past a{
+  display:block;
+  margin-left:0px;
+  margin-bottom:0px;
+}
+
+#awesome-projects #af-past img{
+ width: 245px;
+}
+
+#title_image {
+clear: both;
+background-color:white;
+background-image:url(ZEBRA.jpg);
+background-position: right;
+background-repeat:no-repeat;
+width:750px;
+height: 170px;
+margin-left: auto;
+margin-right:auto;
+}
+
+#kickstarter{
+  margin-top: -20px;
+}
+
+#kickstarter_projects{
+font-family:georgia;
+margin-top: 20px;
+margin-left:auto;
+margin-right: auto;
+text-align: center;
+}
+
+#kickstarter_projects p{
+  margin-bottom:0;
+}
+
+#kickstarter_projects div{
+  float:left;
+  width:250px;
+}
+
+#portfolio{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#portfolio li{
+  margin-bottom: 15px;
+  background: #E6E6E6;
+}
+
+#portfolio li img{
+  float:left;
+  padding:1em;
+}
+
+#portfolio h2{
+  margin:0;
+  padding:0;
+}
+
+#portfolio li p{
+  margin:0;
+}
+
+p{
+  font-family:georgia;
+}
+
+h1{
+  font-family:georgia;
+}
+
+h2{
+  font-family:georgia;
+  font-weight:normal;
+  margin-top: -20px;
+  margin-bottom:-5px;
+}
+
+.clear{
+  clear: both;
+  display: block;
+}
+
+
+.floated:before, .floated:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.floated:after { clear: both; }
+.floated { zoom: 1; }

@@ -24,34 +24,14 @@
 				<p>Right now, I live in Brooklyn, and I'm a product manager at <a href="http://www.kickstarter.com">Kickstarter</a>. I moved here and joined the team in December 2012. I spend a lot of time on features for people who back projects. Most recently I launched a re-design of the homepage, and of the <a href="http://www.kickstarter.com/profile/starred"> starred projects page</a>. Check it out and let me know what you think! You could also check out some of the work I've supported. Most recently, I backed these projects:</p>
 			</div>
 			<div id="kickstarter_projects" class="floated">
-				
+				{{#each last_kickstarter.array}}
 				<div> 
-					<a href="/projects/530579453/dr-james-buster-brown-centennial-celebration"> 
-						<img src="https://s3.amazonaws.com/ksr/projects/295405/photo-carousel.jpg?1361307749">
-						<p>
-Dr. James &quot;Buster&quot; Brown Centennial Celebration
-</p>
+					<a href="{{this.url}}"> 
+						<img src="{{this.image}}">
+						<p>{{this.title}}</p>
 					</a>
 				</div>
-				
-				<div> 
-					<a href="/projects/559914737/the-veronica-mars-movie-project"> 
-						<img src="https://s3.amazonaws.com/ksr/projects/56284/photo-carousel.jpg?1320681592">
-						<p>
-The Veronica Mars Movie Project
-</p>
-					</a>
-				</div>
-				
-				<div> 
-					<a href="/projects/1176278358/first-2013-season-dunlap-eagles-robotics-team-dert"> 
-						<img src="https://s3.amazonaws.com/ksr/projects/455446/photo-carousel.jpg?1360193620">
-						<p>
-FIRST 2013 Season: Dunlap Eagles Robotics Team (DERT) 2040
-</p>
-					</a>
-				</div>
-				
+				{{/each}}
 			</div>
 
 			<div id="awesome">
