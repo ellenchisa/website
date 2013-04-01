@@ -14,7 +14,7 @@ job('last_kickstarter', '1day', function(done) {
 
 		projects.forEach(function(project) {
 			var title = $(project).find('.project_name').first().text();
-			var url = $(project).attr('href');
+			var url = "http://www.kickstarter.com/" + $(project).attr('href');
 			var image = $(project).find('img').first().attr('src');
 			result.push({
 				title:title,image:image,url:url
