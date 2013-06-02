@@ -1,16 +1,13 @@
-job('last_book', '* * * * *', function(done) {
-	var cheerio = require('cheerio');
-	var request = require('request');
+var goodreads = require('goodreads');
 
-	request.get('http://www.awesomefoundation.org/en/chapters/nyc', function(err,response) {
-		var $ = cheerio.load(response.body);
-
-		var project = $('.project').first();
-
-		var title = project.find('h2').first().text();
-		var url = "http://www.awesomefoundation.org" + project.find("a").first().attr('href');
-		var image = project.find('img').first().attr('src');
-		done({title:title, image:image, url:url})
-
+job('last_book', '1 day', function(done) {
+	var client = new goodreads.client({ 'key': 'auaYzVO0q5dYrIly7e9w', 'secret': 'UvPhnsJoOzfGeVC0cdD1pfELxfr6gxSn4LiKTfY'});
+	client.getSingleShelf('1952043', 'currently-reading', function(reading_shelf) {
+		done({
+			title: reading_shelf.GoodreadsResponse.books[0].book[0].title[0],
+			image: reading_shelf.GoodreadsResponse.books[0].book[0].small_image_url[0],
+			author: reading_shelf.GoodreadsResponse.books[0].book[0].authors[0].author[0].name[0],
+			link: reading_shelf.GoodreadsResponse.books[0].book[0].link[0]
+		});
 	});
 });
