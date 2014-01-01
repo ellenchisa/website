@@ -108,7 +108,7 @@ p{
 }
 
 h1{
-  font-family:georgia;
+  margin-top: -30px;
 }
 
 h1 a:link{
@@ -124,6 +124,10 @@ h1 a:visited{
 h2,h3{
   font-family:georgia;
   font-weight:normal;
+}
+
+#title_image h1{
+  font-family:georgia;
 }
 
 #title_image h2{
