@@ -111,6 +111,16 @@ h1{
   font-family:georgia;
 }
 
+h1 a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+h1 a:visited{
+  color: #000;
+  text-decoration: none;
+}
+
 h2,h3{
   font-family:georgia;
   font-weight:normal;
