@@ -111,6 +111,11 @@ h1{
   font-family:georgia;
 }
 
+h2{
+  font-family:georgia;
+  font-weight:normal;
+}
+
 #title_image h2{
   font-family:georgia;
   font-weight:normal;
