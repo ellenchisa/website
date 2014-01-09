@@ -104,6 +104,10 @@ h1{
   font-family:georgia;
 }
 
+ul{
+  list-style:none;
+}
+
 
 #title_image h2{
   font-family:georgia;
