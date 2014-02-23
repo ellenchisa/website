@@ -114,6 +114,10 @@ ul{
   list-style:none;
 }
 
+#mentoring ul{
+  list-style:disc;
+}
+
 #title_image a:link{
   text-decoration:none;
 }
@@ -136,7 +140,7 @@ ul{
 }
 
 #mentoring h2{
-  margin: 0px;
+  margin: 0;
 }
 
 
