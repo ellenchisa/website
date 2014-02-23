@@ -19,30 +19,21 @@
 	</script>
 </head>
 
-
-
 <body>
 	<div id="container">
 		<div id="title_image">
 			<h1>Ellen Chisa</h1>
-			<h2>Chaos out of order, order out of chaos*</h2>
-			<p> <a href="http://blog.ellenchisa.com" id="link" class="icon">&#XA6;</a>
-				<a href="http://www.twitter.com/ellenchisa" id="link" class="icon">&#X277F;</a> 
-				<a href="http://www.facebook.com/ellenchisa" id="link" class="icon">&#X277E;</a> 
-				<a href="http://www.linkedin.com/profile/view?id=183672948&trk=tab_pro" id="link" class="icon">&#X2782;</a> 
-				<a href="https://github.com/ellenchisa" id="link" class="icon">&#X278A;</a> 
-				<a href="https://foursquare.com/ellenchisa" id="link" class="icon">&#X2799;</a> 
-				<a href="http://pinterest.com/ellenchisa/" id="link" class="icon">&#X279E;</a>
-				<a href="http://www.goodreads.com/user/show/1952043-ellen-chisa" id="link" class="icon">&#XC3;</a>
-				<p> Hello! You can find me around the internet or in real life, <br> but this is my story. </p></p> 
+			<h4><a href="http://www.ellenchisa.com">About</a> | <a href="http://www.ellenchisa.com/writing">Writing</a> | <a href="http://www.ellenchisa.com/speaking">Speaking</a> | <a href="http://www.ellenchisa.com/portfolio">Portfolio</a> | <a href="http://www.ellenchisa.com/mentoring">Mentoring</a></h4>
+
+				<p> Hello! You can find me around the internet or in real life, <br> but this is my story. My New Year's Resolution is to commit <br> something to Github everyday. I started with a <a href="http://www.ellenchisa.com/books/">visualization of <br> what I've read so far</a>, because I love to read. You can fork it on <br> Github to make your own. </p></p> 
 			</div>
 
 			<div id="books">
-				<p> My New Year's Resolution is to commit something to Github everyday. I started with a <a href="http://www.ellenchisa.com/books/">visualization of what I've read so far</a>, because I love to read. You can fork it on Github and make your own! I keep track of what I want to read on <a href="http://www.goodreads.com/user/show/1952043-ellen-chisa"> Goodreads</a> (suggestions welcome!) Right now I'm reading <a href="{{last_book.link}}">{{last_book.title}}</a> by {{last_book.author}}. Some other things I enjoy are <a href="http://blog.ellenchisa.com">writing</a>, SCUBA Diving, and the Twilight Zone pinball machine.</p>
+				<p>Right now I'm reading <a href="{{last_book.link}}">{{last_book.title}}</a> by {{last_book.author}}. Some other things I enjoy are <a href="http://www.ellenchisa.com/writing">writing</a>, SCUBA Diving, and the Twilight Zone pinball machine.</p>
 			</div>
 
 			<div id="kickstarter">
-				<p>I spend most of my time being a Product Manager at <a href="http://www.kickstarter.com">Kickstarter</a>. Most recently, I shipped <a href="http//www.kickstarter.com/discover/advanced"> a new set of Discovery tools</a>. You should try them out and let me know what you think! You can see more of my work in my <a href="http://www.ellenhchisa.com/portfolio"> portfolio</a>. Most recently, I backed these projects:</p>
+				<p>I spend most of my time as a Product Manager at Kickstarter. Most recently, I shipped <a href="http//www.kickstarter.com/discover/advanced"> a new set of Discovery tools</a>. If you try them, let me know what you think. A big part of working at Kickstarter is getting to see (and support!) creative projects. Most recently, I backed these:</p>
 			</div>
 			<div id="kickstarter_projects" class="floated">
 				{{#each last_kickstarter.array}}
@@ -56,7 +47,7 @@
 			</div>
 
 			<div id="awesome">
-				<p>I'm also a trustee of the Awesome Foundation in NYC. Our most recent grant was to the <a href="{{last_awesome.most_recent.url}}">{{last_awesome.most_recent.title}}.</a> We support a bunch of cool projects by giving away $1000, no strings attached, every month. </p> </div>
+				<p>I'm also a trustee of the Awesome Foundation NYC. Our most recent grant was to the <a href="{{last_awesome.most_recent.url}}">{{last_awesome.most_recent.title}}.</a> We support interesting work by giving away $1000, no strings attached, every month. </p> </div>
 				<div id="awesome-projects" class=""><a id="af-most-recent" href="{{last_awesome.most_recent.url}}"> <img src="{{last_awesome.most_recent.image}}"></a>
 					<div id="af-past"> 
 						<a href="{{last_awesome.second_most.url}}"> <img src="{{last_awesome.second_most.image}}"></a>
@@ -64,23 +55,33 @@
 					</div>
 				</div>
 
-				<p> If you're interested in learning more about the Awesome Foundation, you should check out this talk that I gave with <a href="http://www.nicolebelee.com"> Nikki Lee</a> at Creative Mornings. The talk itself is 17 minutes, and the rest is Q&amp;A. </p>
+				<p> If you're interested in learning more about the Awesome Foundation, you should check out this talk that I gave with <a href="http://www.nicolebelee.com">Nikki Lee</a> at Creative Mornings. The talk itself is 17 minutes, and the rest is Q&amp;A. </p>
 				<iframe src="http://player.vimeo.com/video/59261997" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-				<p>I used to live in Seattle, where I was a Program Manager at Microsoft. I worked on <a href="http://blogs.office.com/b/office-next/archive/2012/10/29/introducing-the-new-office-on-windows-phone-8.aspx"> Office for Windows Phone 8</a>. I used Windows Phones for a long time, but after I dropped two, I switched over to iOS. I also worked on something that I still refer to as "The Oompa Loompas" and on PowerPoint Broadcast for Symbian.<a href="http://blog.ellenchisa.com/2013/12/17/my-microsoft-experience-13/"> I wrote a longer essay on my time at Microsoft.</a></p>
+				<p>I used to live in Seattle, where I was a Program Manager at Microsoft. I worked on <a href="http://blogs.office.com/b/office-next/archive/2012/10/29/introducing-the-new-office-on-windows-phone-8.aspx"> Office for Windows Phone 8</a>. I also worked on something that I still affectionately refer to as "The Oompa Loompas" and on PowerPoint Broadcast for Symbian.<a href="http://blog.ellenchisa.com/2013/12/17/my-microsoft-experience-13/"> I wrote a longer essay on my time at Microsoft.</a></p>
 
-				<p>I graduated from Franklin W. Olin College of Engineering with a B.S. in Electrical &amp; Computer Engineering. My senior capstone project at Olin was studying "transitioners" - people who were graduating from college and going to work for the first time. My team designed an application called Sundrop: Saving for a Sunny Day, meant to encourage impulse saving. One of my favorite parts of the application was the "Not Starbucks" feature.</p>
+				<p>Before that, I graduated from Franklin W. Olin College of Engineering with a B.S. in Electrical &amp; Computer Engineering. My senior capstone project at Olin was studying "transitioners" - people who were graduating from college and going to work for the first time. My team designed an application called Sundrop: Saving for a Sunny Day, meant to encourage impulse saving. One of my favorite parts of the application was the "Not Starbucks" feature.</p>
 
-				<p> At one point, I took a Leave of Absence from Olin. While on leave I co-founded Alight Learning with five of my friends. We attempted to design course management software from pedagogical principles, rather than automating the existing student-teacher workflow. I'd really like to work on education products again someday.</p>
+				<p> At one point, I took a Leave of Absence from Olin. While on leave I co-founded Alight Learning with five of my friends. We attempted to design learning management software from pedagogical principles, rather than automating the existing student-teacher workflow.</p>
 
 				<p> I grew up in Michigan. I attended the International Academy for High School, which at the time was the only all-public all-International Baccalaurate school in North America. I'm still a huge fan of the IB curriculum. I was also a member of FIRST Robotics Team 469. </p>
 
-				<p> If you've bothered to read this far, I really like meeting new people! If you're in NYC, we could grab coffee. You can email me at ellen dot chisa at gmail dot com. If you're looking for advice, I participate in <a href="http://www.ellenchisa.com/mentoring">/mentoring.</a></p>
+				<p> If you've bothered to read this far, I really like meeting new people! You can find me at all these places online:<br>
+				<a href="http://www.twitter.com/ellenchisa" id="link" class="icon">&#X277F;</a> 
+				<a href="https://github.com/ellenchisa" id="link" class="icon">&#X278A;</a>
+				<a href="http://www.goodreads.com/user/show/1952043-ellen-chisa" id="link" class="icon">&#XC3;</a>
+				<a href="http://www.facebook.com/ellenchisa" id="link" class="icon">&#X277E;</a> 
+				<a href="http://www.linkedin.com/in/ellenchisa" id="link" class="icon">&#X2782;</a> 
+				<a href="https://foursquare.com/ellenchisa" id="link" class="icon">&#X2799;</a> 
+				<a href="http://pinterest.com/ellenchisa/" id="link" class="icon">&#X279E;</a></p>
 
-				<p> I also keep a slightly more "formal" list of things I've done <a href="http://www.ellenchisa.com/portfolio">here.</a> But honestly, it's probably way more fun to watch this video of my cat:</p>
+				<p> Since this is the internet, here's a video of my cat:</p>
 				<iframe src="http://player.vimeo.com/video/83925461" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				
+				<p>If you're in NYC, we could grab coffee. You can email me at ellen dot chisa at gmail dot com.</p>
+				
 
-				<div id="footer"><p>* I came up with this phrase once when trying to explain to someone what a Product Manager does. I decided that a Product Manager is someone that sometimes take lots of information and try to synthesize it into something that makes sense. Other times, a PM takes something that's a "sure thing" and asks the hard questions to figure out what's really going on.</p><p>** And in case you're curious about the two headed zebra at the top... it's a photo I took on a trip to Tanzania in 2009, when two zebras just happened to stand such that they looked like one two-headed zebra.</p>
+				<div id="footer"><p>** And in case you're curious about the two headed zebra at the top... it's a photo I took on a trip to Tanzania in 2009, when two zebras just happened to stand such that they looked like one two-headed zebra.</p>
 				<p>Icon set courtesy of <a href="http://icons8.com/download-huge-windows8-set/">icons8</a>. </p> </div></div>
 
 

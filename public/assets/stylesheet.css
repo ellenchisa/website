@@ -22,6 +22,10 @@ color:#7D1717;
 	width: 750px;
 }
 
+#books{
+  margin-top: 25px;
+}
+
 #awesome-projects #af-most-recent{
   width: 500px;
   display: inline-block;
@@ -51,6 +55,8 @@ width:750px;
 height: 170px;
 margin-left: auto;
 margin-right:auto;
+text-decoration: none;
+margin-bottom:10px;
 }
 
 #kickstarter_projects{
@@ -108,12 +114,20 @@ ul{
   list-style:none;
 }
 
+#title_image a:link{
+  text-decoration:none;
+}
 
-#title_image h2{
+
+#title_image h2, h4{
   font-family:georgia;
   font-weight:normal;
-  margin-top: -20px;
-  margin-bottom:-5px;
+  margin-top: -10px;
+  margin-bottom:0px;
+}
+
+#nav h2{
+  margin-top:10px;
 }
 
 .clear{
