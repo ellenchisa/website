@@ -135,6 +135,10 @@ ul{
   display: block;
 }
 
+#mentoring h2{
+  margin: 0px;
+}
+
 
 .floated:before, .floated:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
 .floated:after { clear: both; }
