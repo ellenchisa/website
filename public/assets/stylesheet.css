@@ -149,8 +149,8 @@ ul{
 }
 
 #title h4{
-  margin-top: -15px;
-  margin-bottom: 15px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .floated:before, .floated:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
