@@ -1,4 +1,4 @@
-job('last_kickstarter', '1day', function(done) {
+job('last_kickstarter', function(done) {
 	var cheerio = require('cheerio');
 	var request = require('request');
 
@@ -22,4 +22,4 @@ job('last_kickstarter', '1day', function(done) {
 		});
 		done({ array: result });
 	});
-});
+}).every('1 day');

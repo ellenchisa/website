@@ -1,7 +1,0 @@
-Our most recent grant was to the <a href="{{last_awesome.most_recent.url}}">{{last_awesome.most_recent.title}}.</a> We support interesting work by giving away $1000, no strings attached, every month. </p> </div>
-                <div id="awesome-projects" class=""><a id="af-most-recent" href="{{last_awesome.most_recent.url}}"> <img src="{{last_awesome.most_recent.image}}"></a>
-                    <div id="af-past"> 
-                        <a href="{{last_awesome.second_most.url}}"> <img src="{{last_awesome.second_most.image}}"></a>
-                        <a href="{{last_awesome.third_most.url}}"> <img src="{{last_awesome.third_most.image}}"></a>
-                    </div>
-                </div>

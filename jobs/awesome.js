@@ -1,4 +1,4 @@
-job('last_awesome', '1day', function(done) {
+job('last_awesome', function(done) {
 	var cheerio = require('cheerio');
 	var request = require('request');
 
@@ -26,6 +26,5 @@ job('last_awesome', '1day', function(done) {
 		result.third_most.image = third_most.find('img').first().attr('src');
 
 		done(result);
-
 	});
-});
+}).every('1 day');

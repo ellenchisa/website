@@ -1,7 +1,12 @@
-var goodreads = require('goodreads');
+var goodreads = require('goodreads'),
+  key = config().tokens.goodreads.key,
+  secret = config().tokens.goodreads.secret;
 
-job('last_book', '1 day', function(done) {
-	var client = new goodreads.client({ 'key': 'auaYzVO0q5dYrIly7e9w', 'secret': 'UvPhnsJoOzfGeVC0cdD1pfELxfr6gxSn4LiKTfY'});
+console.log(key, secret);
+
+job('last_book', function(done) {
+
+	var client = new goodreads.client({ 'key': key, 'secret': secret});
 	client.getSingleShelf('1952043', 'currently-reading', function(reading_shelf) {
 		done({
 			title: reading_shelf.GoodreadsResponse.books[0].book[0].title[0],
@@ -10,4 +15,4 @@ job('last_book', '1 day', function(done) {
 			link: reading_shelf.GoodreadsResponse.books[0].book[0].link[0]
 		});
 	});
-});
+}).every('1 day');
