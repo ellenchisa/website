@@ -2,8 +2,6 @@ var goodreads = require('goodreads'),
   key = config().tokens.goodreads.key,
   secret = config().tokens.goodreads.secret;
 
-console.log(key, secret);
-
 job('last_book', function(done) {
 
 	var client = new goodreads.client({ 'key': key, 'secret': secret});
