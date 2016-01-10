@@ -16,6 +16,9 @@
     "url": "https://github.com/ellenchisa/website/issues"
   },
   "homepage": "http://www.ellenchisa.com",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "cheerio": "^0.19.0",
     "finalhandler": "^0.4.1",
