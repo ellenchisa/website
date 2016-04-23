@@ -1,8 +1,11 @@
 job('last_kickstarter', function(done) {
 	var cheerio = require('cheerio');
 	var request = require('request');
-
-	request.get('https://www.kickstarter.com/profile/ellenchisa', function(err,response) {
+	
+	request({
+		url: 'https://www.kickstarter.com/profile/ellenchisa',
+		headers: {'User-Agent':'request/2.67.0','Host':'www.kickstarter.com','Accept':'*/*'}
+	}, function(err, response) {
 		var $ = cheerio.load(response.body);
 
 		var page = $('.page');
@@ -14,7 +17,7 @@ job('last_kickstarter', function(done) {
 
 		projects.forEach(function(project) {
 			var title = $(project).find('.project_name').first().text();
-			var url = "https://www.kickstarter.com/" + $(project).attr('href');
+			var url = "https2://www.kickstarter.com/" + $(project).attr('href');
 			var image = $(project).find('img').first().attr('src');
 			result.push({
 				title:title,image:image,url:url
