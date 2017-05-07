@@ -17,7 +17,14 @@ app.start();
 var root = ss('public');
 
 var server = http.createServer(function(req, res) {
-  root(req, res, finalhandler(req, res));
+	if (req.url === '/something-new') {
+		res.writeHead(301,
+			{ Location: 'http://www.tinyletter.com/ellenchisa' });
+		res.end();
+	} else { 
+		root(req, res, finalhandler(req, res));
+	}
+  
 });
 
 server.listen(8080);
