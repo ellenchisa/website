@@ -21,6 +21,11 @@ var server = http.createServer(function(req, res) {
 		res.writeHead(301,
 			{ Location: 'http://www.tinyletter.com/ellenchisa' });
 		res.end();
+	} else if (req.url === '/dark') {
+		res.writeHead(301,
+			{ Location: 'https://docs.google.com/document/d/1LAZlIURFMqOrCPZDT2UCEFOzXETFQ-r6d80tVCDiddQ/' });
+	}	res.end();
+	
 	} else { 
 		root(req, res, finalhandler(req, res));
 	}
