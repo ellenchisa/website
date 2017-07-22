@@ -19,7 +19,7 @@ var root = ss('public');
 var server = http.createServer(function(req, res) {
 	if (req.url === '/something-new') {
 		res.writeHead(301,
-			{ Location: 'http://www.tinyletter.com/ellenchisa' });
+			{ Location: 'http://eepurl.com/cWZwXj' });
 		res.end();
 	} else if (req.url === '/dark') {
 		res.writeHead(301,
