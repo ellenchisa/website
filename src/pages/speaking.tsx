@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import speakingImage from "../images/speaking.jpg"
 
 const SpeakingPage = () => (
 
@@ -14,7 +14,7 @@ const SpeakingPage = () => (
 
       <div className="row">
         <div className="six columns">
-          <Image name="speaking" />
+        <img src={speakingImage} alt="ellenheadshot" className="u-max-full-width"></img>
           <p><a href="https://www.ellenchisa.com">Ellen Chisa</a> speaks about startups, software development, and leadership. You can read about her talk development process on the <a href="http://www.5050pledge.com/ellen-chisa/">50/50 pledge</a> or contact her for bookings: <a href="mailto:ellen.chisa@gmail.com">ellen.chisa@gmail.com</a>.</p>
 
           <p>Current talks:</p>
@@ -31,7 +31,7 @@ const SpeakingPage = () => (
         <div className="six columns">
 
           <h4>Bio and Speaker Photos</h4>
-          <p><a href="https://www.ellenchisa.com/bio/">Long</a>, <a href="https://www.ellenchisa.com/bio/short.html">short</a>, and <a href="https://www.ellenchisa.com/bio/twoline.html">very short</a> bios.</p>
+          <p>Bio is currently being updated, please request a copy.</p>
                 <p><a href="https://drive.google.com/drive/folders/0Bwvca-1ICk0oMTBtM1dsb00zZnM?usp=sharing">Speaker photos and headshots.</a></p>
 
             <h4>Selected Past Talks</h4>

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import writingImage from "../images/writing.jpg"
 
 const WritingPage = () => (
   <Layout>
@@ -13,7 +13,7 @@ const WritingPage = () => (
 
       <div className="row">
         <div className="six columns">
-          <Image name="writing"/>
+        <img src={writingImage} alt="ellenheadshot" className="u-max-full-width"></img>
           <p><a href="https://www.ellenchisa.com">Ellen Chisa</a> writes about startups and software development. She has been published in <a href="http://firstround.com/review/the-magical-benefits-of-the-quitters-mindset">First Round Review</a>, <a href="https://stratechery.com/2016/ellen-chisa-crowdfunding-and-the-internet-an-overview-of-crowdfunding-platforms-creating-a-sustainable-crowdfunding-platform/">Stratechery</a>, and <a href="http://www.businessinsider.com/first-year-at-harvard-business-school-2015-5">Business Insider</a>. Ellen previously wrote <a href="http://book.ellenchisa.com">a book on Product Management</a>, including essays she wrote over five years.</p>
           <p>To stay up to date with her most recent articles you can follow her on <a href="https://www.medium.com/@ellenchisa">Medium</a> or on Twitter:
                 <a href="https://twitter.com/@ellenchisa" className="twitter-follow-button" data-show-count="false">Follow @ellenchisa</a>
