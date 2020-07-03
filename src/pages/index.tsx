@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import IndexImage from "../components/image"
+import Image from "../components/image"
 
 const IndexPage = () => (
   <Layout>
@@ -11,12 +11,12 @@ const IndexPage = () => (
 			<h1> Ellen Chisa </h1>
 			</div>
 
-		<div class="row">
-    		<div class="six columns">
-   				<IndexImage/>
+		<div className="row">
+    		<div className="six columns">
+   				<Image name="landing"/>
    			</div>
 
-    		<div class="six columns">
+    		<div className="six columns">
     			<p>Hi! I’m Ellen and I like making new things.</p>
 				<p>I’m working on Dark, with the goal of empowering the next billion developers. We’re starting by making it easy to build backend web services. You could say it's deployless! <a href="https://darklang.com">More</a>.</p>
 				<p>Before this, I worked on <a href="http://www.lola.com">Lola</a>, <a href="http://www.kickstarter.com">Kickstarter</a>, and Office Mobile.</p>
