@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Website for Ellen Chisa",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -16,16 +16,8 @@
     "url": "https://github.com/ellenchisa/website/issues"
   },
   "homepage": "http://www.ellenchisa.com",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
-    "cheerio": "^0.19.0",
     "finalhandler": "^0.4.1",
-    "goodreads": "0.0.2",
-    "request": "^2.67.0",
-    "serve-static": "^1.10.0",
-    "tonic": "^0.1.0",
-    "tonic-hbs": "0.0.3"
+    "serve-static": "^1.10.0"
   }
 }

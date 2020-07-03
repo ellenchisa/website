@@ -1,9 +1,5 @@
 node_modules/
-public/index.html
 .DS_Store
 
-public/index.html
 config.json
-data_cache.json
-
 data_cache.json
