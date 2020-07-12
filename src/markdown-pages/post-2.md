@@ -64,7 +64,15 @@ IanC had a long running joke that I was allowed to make book recs (unlike other 
 
 ## Random
 
-This log now exists. My website now uses Main instead of Master. I reviewed a new edition of of [Mapping Experiences](https://www.goodreads.com/book/show/26762484-mapping-experiences?from_search=true&from_srp=true&qid=2Z2wh1kd15&rank=1). I did a decent job of writing morning pages, but decided now isn't the time to dive back into The Artist's Way. I started running again in a new type of [shoe](https://www.brooksrunning.com/en_us/ghost-12-womens-road-running-shoe/120305.html) and I've been doing Pilates with my mom.
+- This log now exists. 
+- My website now uses Main instead of Master. 
+- I reviewed a new edition of of [Mapping Experiences](https://www.goodreads.com/book/show/26762484-mapping-experiences?from_search=true&from_srp=true&qid=2Z2wh1kd15&rank=1). 
+- I did a decent job of writing morning pages, but decided now isn't the time to dive back into The Artist's Way. 
+- I started running again in a new type of [shoe](https://www.brooksrunning.com/en_us/ghost-12-womens-road-running-shoe/120305.html).
+- I've been doing Pilates with my mom. 
+- What's the deal with Lemonade? I'm fascinated that it's the only winner out of #convcomm. 
+- Watched an entire season of Intervention. 
+- Thinking about the parallels between cults and startup leaders after listening to Wondery's podcasts: Guru, WeCrashed, and Bad Batch.
 
 ## Gotten this far?
 
