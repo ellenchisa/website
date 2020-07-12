@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import PostLink from "../components/post-link"
 
-const IndexPage = ({
+const BlogPage = ({
   data: {
     allMarkdownRemark: { edges },
   },
@@ -14,7 +14,7 @@ const IndexPage = ({
   return <div>All Posts:<br></br> {Posts}</div>
 }
 
-export default IndexPage
+export default BlogPage
 
 export const pageQuery = graphql`
   query {
