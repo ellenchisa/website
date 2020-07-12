@@ -62,6 +62,10 @@ Left Your Life speak was recommended to me by my friend [Ethan Bernstein](https:
 
 IanC had a long running joke that I was allowed to make book recs (unlike other founders) because I'm perpetually recommending weird fiction instead of the classic startup silicon valley stuff. This is yet another book about a woman who lives in a small town, runs a small specialty shop, unintentionally gets involved in solving a murder and may/may not end up dating someone in law enforcement. I mostly just enjoy the general absurdity of the genre. It would be cool to make an AI to generate them. 
 
+## Random
+
+This log now exists. My website now uses Main instead of Master. I reviewed a new edition of of [Mapping Experiences](https://www.goodreads.com/book/show/26762484-mapping-experiences?from_search=true&from_srp=true&qid=2Z2wh1kd15&rank=1). I did a decent job of writing morning pages, but decided now isn't the time to dive back into The Artist's Way. I started running again in a new type of [shoe](https://www.brooksrunning.com/en_us/ghost-12-womens-road-running-shoe/120305.html) and I've been doing Pilates with my mom.
+
 ## Gotten this far?
 
 Email me! I'd love to hear from you.
