@@ -304,6 +304,9 @@ ol ul {
 li {
   margin-bottom: 1rem; }
 
+.blog-post-content li{
+  font-size:1.25em;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
