@@ -30,4 +30,4 @@ I read six books this week, including an early manuscript that isn't out yet, bu
 
 #### Misc
 
-Have now been to five different grocery stores (Kroger, Busch's, Papa Joe's, Fresh Thyme, H-Mart).  Got lots of good news from former Dark people. Dropped by an eerily empty mall to try to get Tom's laptop fixed, and the Apple store was by far the most popular destination. Phones still break during pandemics, it turns out. Have six half written blog posts.
+NEW TAYLOR SWIFT!!!! Have now been to five different grocery stores (Kroger, Busch's, Papa Joe's, Fresh Thyme, H-Mart).  Got lots of good news from former Dark people. Dropped by an eerily empty mall to try to get Tom's laptop fixed, and the Apple store was by far the most popular destination. Phones still break during pandemics, it turns out. Have six half written blog posts.
