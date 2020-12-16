@@ -29,10 +29,10 @@ const WritingPage = () => (
           <p> Ellen's book on Product Management is available for purchase <a href="http://book.ellenchisa.com">here</a>. The book includes thirty seven essays organized into seven sections (with an example from each section):</p>
           <ol>
             <li>What is Product Management? (<a href="http://queue.acm.org/detail.cfm?id=2683579">Evolution of the Product Manager</a>).</li>
-            <li>How do I become a Product Manager? (<a href="http://blog.ellenchisa.com/2014/01/28/want-to-be-a-pm-do-a-project/">Want to be a PM? Do a project.</a></li>
+            <li>How do I become a Product Manager? (<a href="http://blog.ellenchisa.com/2014/01/28/want-to-be-a-pm-do-a-project/">Want to be a PM? Do a project).</a></li>
             <li>How do I learn as a Product Manager? (<a href="https://blog.ellenchisa.com/learning-in-product-6cb06292a98c#.i1siiykgw">How to Learn in Product</a>).</li>
             <li>How do I work on a team as a Product Manager? (<a href="http://blog.ellenchisa.com/2014/10/27/pm-person-situation-style/"> PM: The Person, Situation, and Style</a>).</li>
-            <li>What skills should I build as a Product Manager? (<a href="https://blog.ellenchisa.com/do-i-need-to-be-technical-to-be-a-product-manager-81cf8425a11f">Do I need to be technical to be a Product Manager?</a></li>
+            <li>What skills should I build as a Product Manager? (<a href="https://blog.ellenchisa.com/do-i-need-to-be-technical-to-be-a-product-manager-81cf8425a11f">Do I need to be technical to be a Product Manager?)</a></li>
             <li>How can I be a more inclusive Product Manager? (<a href="https://medium.com/@ellenchisa/minimum-bar-diversity-2b8342428de4">Minimum Bar Diversity</a>).</li>
             <li>How do I become (and grow as) a Product Leader? (<a href="https://medium.com/@ellenchisa/an-alternate-framework-for-pm-empathizing-systemizing-7abfa3716d66">An Alternate Framework for PM: Empathizing and Systemizing</a>).</li>
           </ol>
